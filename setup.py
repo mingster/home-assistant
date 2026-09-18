@@ -46,14 +46,14 @@ DOWNLOAD_URL = '{}/archive/{}.zip'.format(GITHUB_URL, __version__)
 PACKAGES = find_packages(exclude=['tests', 'tests.*'])
 
 REQUIRES = [
-    'requests==2.18.4',
+    'requests==2.33.0',
     'pyyaml>=3.11,<4',
     'pytz>=2017.02',
     'pip>=8.0.3',
     'jinja2>=2.9.6',
     'voluptuous==0.10.5',
     'typing>=3,<4',
-    'aiohttp==2.3.7',   # If updated, check if yarl also needs an update!
+    'aiohttp==3.14.3',   # If updated, check if yarl also needs an update!
     'yarl==0.18.0',
     'async_timeout==2.0.0',
     'chardet==3.0.4',
